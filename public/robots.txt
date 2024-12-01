@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+
+# Specific pages
+Allow: /404
+Allow: /references
+Allow: /service
+Allow: /team
+
+# Host
+Host: https://companydivision.com/
+
+# Sitemaps
+Sitemap: https://companydivision.com/sitemap.xml

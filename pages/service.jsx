@@ -2,7 +2,7 @@ import React from 'react'
 import MainLayout from '../components/MainLayout'
 import { FaLaptopCode, FaMobileAlt, FaQrcode } from 'react-icons/fa'
 
-export default function ServicePage () {
+export default function Service () {
   return (
     <MainLayout>
       <div className='container mx-auto p-6 mt-12 min-h-screen'>
@@ -71,3 +71,5 @@ export default function ServicePage () {
     </MainLayout>
   )
 }
+
+Service.title = 'Servislerimiz'

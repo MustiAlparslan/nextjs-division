@@ -63,3 +63,4 @@ export default function References() {
     </MainLayout>
   );
 }
+References.title = 'Referanslarımız'

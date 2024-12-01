@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import MainLayout from '../components/MainLayout'
 import Hero from '../components/hero'
 import Sections from '../components/sections'
-const MainPage = () => {
+const Home = () => {
   const sectionsRef = useRef(null)
 
   // Scroll fonksiyonu
@@ -22,4 +22,5 @@ const MainPage = () => {
   )
 }
 
-export default MainPage
+Home.title = 'Division Company - Web ve Mobil Yazılım Çözümleri'
+export default Home

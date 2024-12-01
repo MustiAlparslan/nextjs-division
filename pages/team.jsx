@@ -41,3 +41,4 @@ export default function Team () {
     </MainLayout>
   )
 }
+Team.title = 'Ekibimiz'
