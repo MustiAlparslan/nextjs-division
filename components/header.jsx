@@ -1,10 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import React from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-export default function Header({ isScrolled }) {
-  const router = useRouter();
-  const hideNav = router.pathname === '/team'; // "Ekibimiz" sayfasında navigasyonu gizle
+export default function Header ({ isScrolled }) {
+  const router = useRouter()
+  const hideNav = router.pathname === '/team' // "Ekibimiz" sayfasında navigasyonu gizle
 
   return (
     <header
@@ -12,34 +12,42 @@ export default function Header({ isScrolled }) {
         isScrolled ? 'bg-black shadow-lg text-white' : 'bg-black text-white'
       }`}
     >
-      <div className="container mx-auto flex justify-around items-center">
+      <div className='container mx-auto flex justify-around items-center'>
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold">
+        <Link href='/' className='text-xl font-bold'>
           <img
-            src="/images/textlogo.png" // Logonun yolunu kontrol edin (public/images/textlogo.png)
-            alt="Başlık Logosu"
+            src='/images/textlogo.png' // Logonun yolunu kontrol edin (public/images/textlogo.png)
+            alt='Başlık Logosu'
             style={{ height: 20 }}
-            className="h-4"
+            className='h-4'
           />
         </Link>
         {/* Navigasyon */}
         {!hideNav && (
           <nav>
-            <ul className="flex space-x-4">
+            <ul className='flex space-x-4'>
               <li>
                 <Link
-                  href="/team"
-                  className="hover:text-gray-400 transition duration-300"
+                  href='/team'
+                  className='hover:text-gray-400 transition duration-300'
                 >
                   Ekibimiz
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/service"
-                  className="hover:text-gray-400 transition duration-300"
+                  href='/service'
+                  className='hover:text-gray-400 transition duration-300'
                 >
                   Servislerimiz
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/references'
+                  className='hover:text-gray-400 transition duration-300'
+                >
+                  Referanslarımız
                 </Link>
               </li>
             </ul>
@@ -47,5 +55,5 @@ export default function Header({ isScrolled }) {
         )}
       </div>
     </header>
-  );
+  )
 }
