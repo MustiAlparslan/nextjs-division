@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import MainLayout from '../components/MainLayout'
 import Hero from '../components/hero'
-import Sections from '../components/sections'
+import HomeContent from '../components/home'
 const Home = () => {
   const sectionsRef = useRef(null)
 
@@ -16,7 +16,7 @@ const Home = () => {
     <MainLayout>
       <Hero scrollToSections={scrollToSections} />
       <div ref={sectionsRef}>
-        <Sections />
+        <HomeContent />
       </div>
     </MainLayout>
   )
