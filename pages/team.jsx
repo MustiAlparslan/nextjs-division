@@ -10,9 +10,14 @@ export default function Team () {
       position: 'CEO'
     },
     {
-      name: 'Cihan Yıldız',
+      name: 'Mustafa Batuhan Alparslan',
       position: 'CTO'
+    },
+    {
+      name: 'Cihan Yıldız',
+      position: 'Manager'
     }
+    
   ]
 
   return (

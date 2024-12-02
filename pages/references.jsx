@@ -3,17 +3,19 @@ import MainLayout from '../components/MainLayout';
 const references = [
   {
     company: 'Pusula Alüminyum',
-    industry: 'Yazılım ve Bilişim',
-    logo: 'https://via.placeholder.com/150',
-    comment: 'Çok memnun kaldık! Projemiz zamanında ve eksiksiz teslim edildi.',
+    industry: 'Site Yapımı',
+    logo: 'https://i.imgur.com/R72N05s.png',
+    comment: 'Şirketimiz için bir Web sitesine ihtiyacımız oldu ve çevremizden Division tavsiye eldildi, kendileri ile sürekli iletişim halindeydik ve sorularımızı anında yanıtladılar. İstediğimiz revizeleri saatler içerisinde yaparak istediğimiz web sitesini Division sayesinde yayınladık. Division`ı tercih etmekten çok memnun kaldık. Teşekkürler Division Company.',
     rating: 5,
+    site: 'https://pusulaaluminyum.org.tr/',
   },
   {
     company: 'Ebru Metal',
-    industry: 'Grafik ve Tasarım',
-    logo: 'https://via.placeholder.com/150',
-    comment: 'Yaratıcı çözümleriyle projelerimize büyük katkı sağladılar.',
-    rating: 4,
+    industry: 'Site Yapımı',
+    logo: 'https://i.imgur.com/z4FhiR0.png',
+    comment: 'İstediğimiz Web sitesini çok kısa bir sürede tam istediğimiz gibi teslim ettiler, teslim sonrasında da kendilerinden destek almaya devam ettik ve çok memnun kaldık. Teşekkürler Division ekibi😊',
+    rating: 5,
+    site: 'https://pusulaaluminyum.org.tr/',
   },
 ];
 
@@ -56,6 +58,7 @@ export default function References() {
                   </svg>
                 ))}
               </div>
+             <br /> <div className="bg-black text-white w-28 h-12 rounded-2xl flex justify-center items-center text-lg font-bold"><p><a href={ref.site}>🌐Sitemiz</a></p></div>
             </div>
           ))}
         </div>
