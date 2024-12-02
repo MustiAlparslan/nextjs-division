@@ -15,7 +15,7 @@ const references = [
     logo: 'https://i.imgur.com/z4FhiR0.png',
     comment: 'İstediğimiz Web sitesini çok kısa bir sürede tam istediğimiz gibi teslim ettiler, teslim sonrasında da kendilerinden destek almaya devam ettik ve çok memnun kaldık. Teşekkürler Division ekibi😊',
     rating: 5,
-    site: 'https://pusulaaluminyum.org.tr/',
+    site: 'https://companydivision.shop/',
   },
 ];
 
