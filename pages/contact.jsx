@@ -46,7 +46,7 @@ export default function Contact() {
                 <div className="flex items-center">
                   <FaMapMarkerAlt className="text-red-600 text-2xl mr-4" />
                   <p className="text-gray-700 text-lg font-medium">
-                    1234 Sokak, Şehir, Türkiye
+                    Ankara, Türkiye
                   </p>
                 </div>
               </div>
