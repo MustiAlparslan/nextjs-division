@@ -1,15 +1,14 @@
-# *
+# Genel Kullanım
 User-agent: *
 Allow: /
 
-# Specific pages
-Allow: /404
-Allow: /references
-Allow: /service
+# Özel Sayfalar (Açıkça Belirtilmiş)
 Allow: /team
+Allow: /service
+Allow: /references
 
 # Host
-Host: https://companydivision.com/
+Host: https://companydivision.com
 
-# Sitemaps
+# Sitemap
 Sitemap: https://companydivision.com/sitemap.xml
